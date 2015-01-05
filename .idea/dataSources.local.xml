@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="upporc dev" uuid="b7e6d8e9-276a-4f7b-86ef-7fa36cb2aad7">
+      <user-name>root</user-name>
+      <user-password>dfc9dfc3dfc4dfdcdfdadfd8dfc5dfc8dfc3dfde</user-password>
+      <schema-pattern>cust.*</schema-pattern>
+      <default-schemas>cust.*</default-schemas>
+    </data-source>
+  </component>
+</project>
