@@ -9,6 +9,7 @@
 <html>
 <head>
     <title></title>
+    <meta name="layout" content="tooplate" />
 </head>
 
 <body>

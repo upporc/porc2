@@ -12,19 +12,22 @@
 		<link rel="shortcut icon" href="${assetPath(src: 'favicon.ico')}" type="image/x-icon">
 		<link rel="apple-touch-icon" href="${assetPath(src: 'apple-touch-icon.png')}">
 		<link rel="apple-touch-icon" sizes="114x114" href="${assetPath(src: 'apple-touch-icon-retina.png')}">
-  		<asset:stylesheet src="application.css"/>
+ 		<asset:stylesheet src="application.css"/>
+
+
 		<asset:javascript src="application.js"/>
 		<g:layoutHead/>
 	</head>
 	<body>
 
-	<div class="menu"><h1>Common Menu Goes Here  <g:link controller="Start"> Home</g:link> </h1></div>
+
 
 		<div id="grailsLogo" role="banner"><a href="http://grails.org"><asset:image src="grails_logo.png" alt="Grails"/></a>
 
 			Current time: ${new Date()}
-		</div>
 
+		</div>
+	<div class="menu"><h1>Common Menu Goes Here  <g:link controller="Start"> Home</g:link> </h1></div>
 
 
 	<g:layoutBody/>

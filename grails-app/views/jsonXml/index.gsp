@@ -9,15 +9,15 @@
 <html>
 <head>
     <title></title>
-    <meta name="layout" content="main" />
+    <meta name="layout" content="tooplate" />
 </head>
 
 <body>
-<h1>The data can be presented by</h1>
-<h3><g:link action="json" >JSON </g:link></h3>
-<h3><g:link action="jsonauto" >JSON automated</g:link></h3>
-<h3><g:link action="xml" >XML</g:link></h3>
-<h3><g:link action="xmlauto" >XML automated </g:link></h3>
+
+<g:link action="json" >JSON </g:link> <br>
+<g:link action="jsonauto" >JSON automated</g:link><br>
+<g:link action="xml" >XML</g:link><br>
+<g:link action="xmlauto" >XML automated </g:link><br>
 
 
 

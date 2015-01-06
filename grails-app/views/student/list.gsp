@@ -8,7 +8,7 @@ http://grails.asia/grails-example-upload-excel-data-file-to-database
 <!DOCTYPE html>
 <html>
 <head>
-    <meta name="layout" content="main">
+    <meta name="layout" content="tooplate">
     <title>Person List</title>
 </head>
 <body>

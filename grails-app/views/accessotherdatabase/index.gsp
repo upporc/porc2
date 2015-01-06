@@ -3,7 +3,7 @@
 <html>
 <head>
     <title></title>
-    <meta name="layout" content="main" />
+    <meta name="layout" content="tooplate" />
 </head>
 
 <body>

@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta name="layout" content="main"/>
+		<meta name="layout" content="tooplate"/>
 		<title>Welcome to Grails</title>
+
+
 		<style type="text/css" media="screen">
 			#status {
 				background-color: #eee;
 				border: .2em solid #fff;
-				margin: 2em 2em 1em;
+				margin: 0em 2em 2em 0em;
 				padding: 1em;
 				width: 12em;
 				float: left;
@@ -39,7 +41,8 @@
 				font-size: 1.1em;
 				margin: 0 0 0.3em;
 			}
-
+		</style>
+			<!--
 			#page-body {
 				margin: 2em 1em 1.25em 18em;
 			}
@@ -79,10 +82,17 @@
 				}
 			}
 		</style>
+	-->
+
 	</head>
 	<body>
+
+<!--
 		<a href="#page-body" class="skip"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
-		<div id="status" role="complementary">
+-->
+
+
+	<div id="status" role="complementary">
 			<h1>Application Status</h1>
 			<ul>
 				<li>App version: <g:meta name="app.version"/></li>
@@ -102,13 +112,17 @@
 				</g:each>
 			</ul>
 		</div>
+
+
+
 		<div id="page-body" role="main">
+			<!--
 			<h1>Welcome to Grails</h1>
 			<p>Congratulations, you have successfully started your first Grails application! At the moment
 			   this is the default page, feel free to modify it to either redirect to a controller or display whatever
 			   content you may choose. Below is a list of controllers that are currently deployed in this application,
 			   click on each to execute its default action:</p>
-
+-->
 			<div id="controller-list" role="navigation">
 				<h2>Available Controllers:</h2>
 				<ul>
